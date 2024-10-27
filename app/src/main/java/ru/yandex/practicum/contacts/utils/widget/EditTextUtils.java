@@ -6,9 +6,6 @@ import android.widget.EditText;
 
 import java.util.function.Consumer;
 
-import ru.yandex.practicum.contacts.presentation.main.MainViewModel;
-import ru.yandex.practicum.contacts.utils.android.Debouncer;
-
 public class EditTextUtils {
 
     public static void addTextListener(EditText editText, Consumer<Editable> consumer) {
